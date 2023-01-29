@@ -38,7 +38,7 @@ MVVM  with clean Architecture and moduler approch
 - Jetpack DataBinding to bind the layouts views and it's null safe.
 - Use Kotlin DSL for gradle management - it helps better gradle management in multi module projects. And increase readability, provide code navigation and auto suggestions
 - Write code maintaining SOLID principle
-- User mapper class to convert network response into UI model
+- Used mapper class to convert network response into UI model
 - Wrote Unit test and UI test to ensure app stability and performance
 - Wrote some infix function to increase unit test readability
 - Add documentation in UI test to explain test scenario and write short comment for unit test
