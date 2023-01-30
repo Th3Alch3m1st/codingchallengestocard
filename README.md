@@ -15,7 +15,7 @@ Users can navigate settings and city search from the toolbar option menu.
 
 
 ## Demo
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/demo.gif" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/app_demo.gif" height="480" width="230" />
   
 ## Screenshots
 <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/sceen_home.png" height="480" width="230" />
