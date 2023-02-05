@@ -18,12 +18,10 @@ Users can navigate settings and city search from the toolbar option menu.
 <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/app_demo_.gif" height="480" width="230" />
   
 ## Screenshots
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/sceen_home.png" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_home_dark.png" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_search.png" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_search_result.png" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_setting_selection.png" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_settings.png" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/sceen__home.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_home__dark.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_image_details.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen__setting.jpeg" height="480" width="230" />
 
 ## Architecture
 MVVM  with clean Architecture and moduler approch
