@@ -40,7 +40,7 @@ MVVM  with clean Architecture and moduler approch
 
 ## Project Structure
   <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/app_architechture.png" height="466" width="485" />
-  <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/project_structure.png" height="466" width="440" />
+  <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/project_structure.png" height="466" width="420" />
     
 ## Application Data flow
   <a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/flow.png" height="241" width="818" />  
