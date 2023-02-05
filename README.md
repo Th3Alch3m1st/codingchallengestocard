@@ -15,6 +15,17 @@ Users can select two themes light and dark, by default the app goes with system 
 
 Users can navigate settings to change themes from the toolbar option menu.
 
+## Improvement area:
+- Could have written it Jetpack compose, unfortunately I haven’t  learn UI test for jetpack compose and still learning Jetpack compose
+- Could have Use room database for offline caching instead I used retrofit caching(Due to time constraints)
+- Weather Api key could have store more securely with secrets gradle plugins
+- Could have write more Unit/UI test to cover more scenario
+- Could have write  kotlin dsl plugin to avoid redundant plugin import in module
+
+## Some Trade-off:
+Like most of the applications I also have trade off decisions in this application.
+- I put the ISettingPreference use case into the preference module, I did it because in some cases apps may need SettingPreference info like theme mode in other modules. If I put ISettingPreference in the settings module, In that case I have to add settings feature module to that module. It better to have implement a utils module rather than feature module
+- All test utils are put into testutils module and in gradle they were added as implementation rather than testImplementation. And later added it as testImplementation and androidTestImplementation in the feature module so test util could be shared in every feature module and it looks like a circular dependency. But it’s in the testing layer.
 
 
 ## Demo
