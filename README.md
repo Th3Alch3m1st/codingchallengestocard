@@ -1,17 +1,20 @@
 # Coding Challenge
 
 ## About the application
-On launch Application will ask for location permission. Location permission is needed to retrieve the current location and later based location lat,lon weather info is collected. If location permission is not given, the app will show an error screen, title and button. On click on button the app will navigate to the device app setting screen to enable location permission.
+On launch Application will try to fetch data using the default query “fruits”. If requests fail due to internet connection or any other api related problem app will show an error UI along with a retry button.
 
-If Gps is not enabled the app will show an error screen, title and button. On click on button, user will be taken to offline city UI, where he can pick a city to see the weather info.
+Users can search new topics by typing on search view and the result will be shown as pagination load. Users can scroll to up to 500 images, due to api constraints (Free account - 500 image results). If the request fails during pagination, app will show a footer error screen along with a retry button.
 
-On Refresh, the app always fetches information using current location.
+If no result is found during a search query, app will show an empty screen.
+
+
+App also have a caching mechanism implemented with retrofit.
 
 Users can select two themes light and dark, by default the app goes with system settings. If dark mode enabled the app will be dark mode otherwise light mode.
 
-Users can also select two measurement units Metric and imperial, by default Metric units are used.
 
-Users can navigate settings and city search from the toolbar option menu.
+Users can navigate settings to change themes from the toolbar option menu.
+
 
 
 ## Demo
@@ -27,7 +30,7 @@ Users can navigate settings and city search from the toolbar option menu.
 MVVM  with clean Architecture and moduler approch
   
 ## Third-party libraries
-- Architecture Components: Lifecycle, ViewModel, Navigation, Safe Args
+- Architecture Components: Lifecycle, ViewModel, Navigation, Safe Args, Paging 3
 - UI component: Material
 - Data Binding
 - Coroutine, Flow
