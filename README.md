@@ -1,12 +1,13 @@
 # Coding Challenge
 
 ## About the application
-On launch Application will try to fetch data using the default query “fruits”. If requests fail due to internet connection or any other api related problem app will show an error UI along with a retry button.
+On launch, Application will try to fetch the latest movies and the result will be shown as pagination. If requests fail due to internet connection or any other api related problem app will show an error UI along with a retry button. If api calls fail during pagination, app will show an error footer along with a retry button.
 
-Users can search new topics by typing on search view and the result will be shown as pagination load. Users can scroll to up to 500 images, due to api constraints (Free account - 500 image results). If the request fails during pagination, app will show a footer error screen along with a retry button.
+Users can search new movies by typing on search view and the result will be shown as pagination. Initial search view is loaded with the query word “action”. If the request fails during pagination, app will show a footer error screen along with a retry button.
 
 If no result is found during a search query, app will show an empty screen.
 
+Tapping on the movie card on both the latest movie and search screen app will open a detailed movie screen.
 
 App also have a caching mechanism implemented with retrofit.
 
@@ -18,7 +19,7 @@ Users can navigate settings to change themes from the toolbar option menu.
 ## Improvement area:
 - Could have written it Jetpack compose, unfortunately I haven’t  learn UI test for jetpack compose and still learning Jetpack compose
 - Could have Use room database for offline caching instead I used retrofit caching(Due to time constraints)
-- Weather Api key could have store more securely with secrets gradle plugins
+- Themoviedb Api key could have store more securely with secrets gradle plugins
 - Could have write more Unit/UI test to cover more scenario
 - Could have write  kotlin dsl plugin to avoid redundant plugin import in module
 
@@ -29,13 +30,14 @@ Like most of the applications I also have trade off decisions in this applicatio
 
 
 ## Demo
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/app_demo_.gif" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/app_demo.gif" height="480" width="230" />
   
 ## Screenshots
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen__home.jpeg" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_home__dark.jpeg" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_image_details.jpeg" height="480" width="230" />
-<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen__setting.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_latest_movies.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_latest_movies_dark.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_movie_search.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_movie_details.jpeg" height="480" width="230" />
+<a href="url"><img src="https://github.com/Th3Alch3m1st/codingchallengestocard/blob/main/screenshots/screen_settings.jpeg" height="480" width="230" />
 
 ## Architecture
 MVVM  with clean Architecture and moduler approch
